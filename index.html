@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Second Assignment</title>
-    <link rel="stylesheet" href="./css/second-assignment.css" />
+    <title>Kasper</title>
+    <link rel="icon" href="./imgs/logo.png" />
+    <meta name="description" content="This is from Kasper Templates." />
+    <link rel="stylesheet" href="./css/kasper.css" />
     <link rel="stylesheet" href="./css/normailze.css" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -20,17 +22,41 @@
     <div class="header">
       <div class="container">
         <div class="logo">
-          <a href="#"><img src="./imgs/logo.png" alt="" /></a>
+          <a href="#" aria-label="Navigate to the main page"
+            ><img src="./imgs/logo.png" alt="Logo-image"
+          /></a>
         </div>
         <div class="links">
           <i class="fas fa-bars toggle-menu"></i>
           <ul>
-            <li><a class="active" href="#">home</a></li>
-            <li><a href="#services">services</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#pricing">pricing</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li>
+              <a class="active" href="#" aria-label="Navigate to the main page"
+                >home</a
+              >
+            </li>
+            <li>
+              <a href="#services" aria-label="Navigate to the service page"
+                >services</a
+              >
+            </li>
+            <li>
+              <a href="#portfolio" aria-label="Navigate to the portfolio page"
+                >portfolio</a
+              >
+            </li>
+            <li>
+              <a href="#about" aria-label="Navigate to the about page">about</a>
+            </li>
+            <li>
+              <a href="#pricing" aria-label="Navigate to the pricing page"
+                >pricing</a
+              >
+            </li>
+            <li>
+              <a href="#contact" aria-label="Navigate to the contact page"
+                >contact</a
+              >
+            </li>
           </ul>
           <div class="form">
             <i class="fas fa-search"></i>
@@ -43,9 +69,9 @@
     <div class="landing">
       <div class="overlay"></div>
       <div class="dark-mode">
-        <label class="dark-mode-label"> Dark Mode</label>
+        <label class="dark-mode-label" for="darkModeCheckbox">Dark Mode</label>
         <label class="switch">
-          <input type="checkbox" />
+          <input type="checkbox" id="darkModeCheckbox" />
           <span class="slider round"></span>
         </label>
       </div>
@@ -125,7 +151,7 @@
 
     <div class="design-feature">
       <div class="image">
-        <img src="./imgs/mobile.png" alt="" />
+        <img src="./imgs/mobile.png" alt="mobile-image" />
       </div>
 
       <div class="paragraph-in-mobile">
@@ -157,56 +183,56 @@
 
       <div class="photos">
         <div class="col" section="nature">
-          <img src="./imgs/shuffle-01.jpg" alt="" />
+          <img src="./imgs/shuffle-01.jpg" alt="shuffle-image-01" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="nature">
-          <img src="./imgs/shuffle-02.jpg" alt="" />
+          <img src="./imgs/shuffle-02.jpg" alt="shuffle-image-02" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="nature">
-          <img src="./imgs/shuffle-03.jpg" alt="" />
+          <img src="./imgs/shuffle-03.jpg" alt="shuffle-image-03" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="nature">
-          <img src="./imgs/shuffle-04.jpg" alt="" />
+          <img src="./imgs/shuffle-04.jpg" alt="shuffle-image-04" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="nature">
-          <img src="./imgs/shuffle-05.jpg" alt="" />
+          <img src="./imgs/shuffle-05.jpg" alt="shuffle-image-05" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="nature">
-          <img src="./imgs/shuffle-06.jpg" alt="" />
+          <img src="./imgs/shuffle-06.jpg" alt="shuffle-image-06" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="nature">
-          <img src="./imgs/shuffle-07.jpg" alt="" />
+          <img src="./imgs/shuffle-07.jpg" alt="shuffle-image-07" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="nature">
-          <img src="./imgs/shuffle-08.jpg" alt="" />
+          <img src="./imgs/shuffle-08.jpg" alt="shuffle-image-08" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
@@ -214,56 +240,56 @@
         </div>
 
         <div class="col" section="animals">
-          <img src="./imgs/animals/animal-one.jpg" alt="" />
+          <img src="./imgs/animals/animal-one.jpg" alt="animal-image-one" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="animals">
-          <img src="./imgs/animals/animal.two.jpg" alt="" />
+          <img src="./imgs/animals/animal.two.jpg" alt="animal-image-two" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="animals">
-          <img src="./imgs/animals/animal-three.jpg" alt="" />
+          <img src="./imgs/animals/animal-three.jpg" alt="animal-image-three" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="animals">
-          <img src="./imgs/animals/animal-four.jpg" alt="" />
+          <img src="./imgs/animals/animal-four.jpg" alt="animal-image-four" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="animals">
-          <img src="./imgs/animals/animal-five.jpg" alt="" />
+          <img src="./imgs/animals/animal-five.jpg" alt="animal-image-five" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="animals">
-          <img src="./imgs/animals/animal-six.jpg" alt="" />
+          <img src="./imgs/animals/animal-six.jpg" alt="animal-image-six" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="animals">
-          <img src="./imgs/animals/animal-seven.jpg" alt="" />
+          <img src="./imgs/animals/animal-seven.jpg" alt="animal-image-seven" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="animals">
-          <img src="./imgs/animals/animal-eight.jpg" alt="" />
+          <img src="./imgs/animals/animal-eight.jpg" alt="animal-image-eight" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
@@ -271,56 +297,56 @@
         </div>
 
         <div class="col" section="motors">
-          <img src="./imgs/motors/motor-one.jpg" alt="" />
+          <img src="./imgs/motors/motor-one.jpg" alt="motor-image-one" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="motors">
-          <img src="./imgs/motors/motor-two.jpg" alt="" />
+          <img src="./imgs/motors/motor-two.jpg" alt="motor-image-two" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="motors">
-          <img src="./imgs/motors/motor-three.jpg" alt="" />
+          <img src="./imgs/motors/motor-three.jpg" alt="motor-image-three" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="motors">
-          <img src="./imgs/motors/motor-four.jpg" alt="" />
+          <img src="./imgs/motors/motor-four.jpg" alt="motor-image-four" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="motors">
-          <img src="./imgs/motors/motor-five.jpg" alt="" />
+          <img src="./imgs/motors/motor-five.jpg" alt="motor-image-five" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="motors">
-          <img src="./imgs/motors/motor-six.jpg" alt="" />
+          <img src="./imgs/motors/motor-six.jpg" alt="motor-image-six" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="motors">
-          <img src="./imgs/motors/motor-seven.jpg" alt="" />
+          <img src="./imgs/motors/motor-seven.jpg" alt="motor-image-seven" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="motors">
-          <img src="./imgs/motors/motor-eight.jpg" alt="" />
+          <img src="./imgs/motors/motor-eight.jpg" alt="motor-image-eight" />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
@@ -328,56 +354,80 @@
         </div>
 
         <div class="col" section="animated">
-          <img src="./imgs/animated/animated-one.jpg" alt="" />
+          <img
+            src="./imgs/animated/animated-one.jpg"
+            alt="animated-image-one"
+          />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="animated">
-          <img src="./imgs/animated/animated-two.jpg" alt="" />
+          <img
+            src="./imgs/animated/animated-two.jpg"
+            alt="animated-image-two"
+          />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="animated">
-          <img src="./imgs/animated/animated-three.jpg" alt="" />
+          <img
+            src="./imgs/animated/animated-three.jpg"
+            alt="animated-image-three"
+          />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="animated">
-          <img src="./imgs/animated/animated-four.jpg" alt="" />
+          <img
+            src="./imgs/animated/animated-four.jpg"
+            alt="animated-image-four"
+          />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="animated">
-          <img src="./imgs/animated/animated-five.jpg" alt="" />
+          <img
+            src="./imgs/animated/animated-five.jpg"
+            alt="animated-image-five"
+          />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="animated">
-          <img src="./imgs/animated/animated-six.jpg" alt="" />
+          <img
+            src="./imgs/animated/animated-six.jpg"
+            alt="animated-image-six"
+          />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="animated">
-          <img src="./imgs/animated/animated-seven.jpg" alt="" />
+          <img
+            src="./imgs/animated/animated-seven.jpg"
+            alt="animated-image-seven"
+          />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
           </div>
         </div>
         <div class="col" section="animated">
-          <img src="./imgs/animated/animated-eight.jpg" alt="" />
+          <img
+            src="./imgs/animated/animated-eight.jpg"
+            alt="animated-image-eight"
+          />
           <div class="explain-the-image">
             <h4>awesome image</h4>
             <p>photography</p>
@@ -385,7 +435,7 @@
         </div>
       </div>
 
-      <a href="#">more</a>
+      <a href="#" aria-label="Navigate to the main page">more</a>
     </div>
 
     <div class="page-video">
@@ -407,7 +457,7 @@
           Mauris blandit aliquet elit, eget tincidunt.
         </p>
 
-        <img src="./imgs/about.png" alt="" />
+        <img src="./imgs/about.png" alt="about-image" />
       </div>
     </div>
 
@@ -447,7 +497,7 @@
             Mauris blandit aliquet elit, eget tincidunt.
           </p>
           <div class="person">
-            <img src="./imgs/skills-01.jpg" alt="" />
+            <img src="./imgs/skills-01.jpg" alt="skills-image-01" />
             <div class="text">
               <p>
                 Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
@@ -457,7 +507,7 @@
             </div>
           </div>
           <div class="person">
-            <img src="./imgs/skills-02.jpg" alt="" />
+            <img src="./imgs/skills-02.jpg" alt="skills-image-02" />
             <div class="text">
               <p>
                 Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
@@ -540,7 +590,7 @@
               </ul>
             </div>
             <div class="bottom-type">
-              <a href="#">buy now</a>
+              <a href="#" aria-label="Navigate to the main page">buy now</a>
             </div>
           </div>
           <div class="col">
@@ -557,7 +607,7 @@
               </ul>
             </div>
             <div class="bottom-type">
-              <a href="#">buy now</a>
+              <a href="#" aria-label="Navigate to the main page">buy now</a>
             </div>
           </div>
           <div class="col">
@@ -574,7 +624,7 @@
               </ul>
             </div>
             <div class="bottom-type">
-              <a href="#">buy now</a>
+              <a href="#" aria-label="Navigate to the main page">buy now</a>
             </div>
           </div>
           <div class="col">
@@ -591,13 +641,13 @@
               </ul>
             </div>
             <div class="bottom-type">
-              <a href="#">buy now</a>
+              <a href="#" aria-label="Navigate to the main page">buy now</a>
             </div>
           </div>
         </div>
         <div class="special-request">
           <p>Contact us if you have special request</p>
-          <a href="#"> contact us</a>
+          <a href="#" aria-label="Navigate to the main page"> contact us</a>
         </div>
       </div>
     </div>
@@ -652,7 +702,7 @@
 
     <footer>
       <div class="container">
-        <img src="./imgs/logo.png" alt="" />
+        <img src="./imgs/logo.png" alt="Logo-image" />
         <div class="socaial-container">
           <p>we are social</p>
           <div class="icons">
